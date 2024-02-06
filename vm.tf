@@ -74,7 +74,7 @@ resource "aws_instance" "web" {
     Name = "HelloWorld"
   }
 }
-/*
+
 resource "aws_ebs_volume" "defaults" {
   size              = 30
   availability_zone = "${aws_instance.web.availability_zone}"
